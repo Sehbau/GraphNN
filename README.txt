@@ -16,19 +16,19 @@ aufgefuellt mit Nullen fuer Koordinaten, und mit Not-a-Number fuer Signaturen.
 
 Gespeichert in 2 Formaten:
   - Matlab mit extension .mat, und post-fix 'Mb/mb' im Dateinamen
-  - binary, mit post-fix 'Bn/bn' im Dateinamen
+  - binary, mit post-fix 'Bn/bn' im Dateinamen (zu gross fuer Github)
 
 
 ----------  Files  ----------
 
-  - LabBn (LabMb): labels [70000 1] E [0..9]
+  - LabMb (LabBn): labels [70000 1] E [0..9]
 
-  - ROWbn (ROWmb): [70000 131] row-coordinates (indices) E [2..30], 0=no point
-  - COLbn (COLmb): [70000 131] col-coordinates (indices) E [2..30], 0=no point
+  - ROWmb (ROWbn): [70000 131] row-coordinates (indices) E [2..30], 0=no point
+  - COLmb (COLbn): [70000 131] col-coordinates (indices) E [2..30], 0=no point
 
-  - FetBarBn (FetBarMb): [70000 131] E [0,2*pi]
+  - FetBarMb (FetBarBn): [70000 131] E [0,2*pi]
 	      signature of directional angle of the bar feature at each boundary pixel 
-  - FetRsgBn (FetBarMb): [70000 131] E [0,1]
+  - FetRsgMb (FetBarBn): [70000 131] E [0,1]
 	     radial signature, normalized by maximum radius of image (16) 
 
 
